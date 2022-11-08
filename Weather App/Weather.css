@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("OpenSans-Light.ttf");
+}
+
+.index{ margin:0; padding:0;height:100%;
+    width:100%;font-family: "OpenSans-Light", serif;background-color: rgb(221, 251, 251); } 
+
+.cities{
+    display: flex;
+}
+.DIVbgp1{
+ 
+    width: 100%;
+    height: 200px;
+    
+}
+.bgp1{
+    
+    width: 100%;
+    height: 100%;
+
+}
+.weatherWindow{
+    margin-right: 50px;
+    margin-left: 50px;
+}

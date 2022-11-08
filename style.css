@@ -1,0 +1,293 @@
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("OpenSans-Light.ttf");
+}
+
+.index{ margin:0; padding:0;height:100%;
+    width:100%;font-family: "OpenSans-Light", serif; } 
+
+.page1{
+ height:100%;
+  width:100%;
+  overflow:hidden;
+  display: block;
+  justify-content:center;
+  align-items: center;
+  /* background-color: rgb(232, 232, 232); */
+}
+.DIVbgp1{
+ 
+    width: 100%;
+    height: 200px;
+    
+}
+.bgp1{
+    
+    width: 100%;
+    height: 100%;
+
+}
+.titleDIV{
+    padding: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+/* h1{ 
+    /* font-weight: 900; 
+    /* font-size: 30px; 
+} */
+.welcome{
+    background-color: rgb(244, 244, 244);
+    font-family: 'Island Moments', cursive;
+    font-size: 30px;
+    
+}
+.shadowHome{
+    position: relative;   
+    width: 50%;
+
+}
+.menuIMG{
+ 
+    opacity: 1;
+    display: block;
+    width: 250px;
+    height: 250px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+   
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .shadowHome:hover .menuIMG {
+    opacity: 0.3;
+  }
+  
+  .shadowHome:hover .middle {
+    opacity: 1;
+  }  
+
+
+.DIVmenu{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+   font-family: 'Tangerine', cursive;
+
+}
+/*----------------home page---------------- */
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+#checkboxHome {
+    margin: .4rem;
+}
+.page2{
+    height:100%;
+    width:100%;
+     overflow:hidden;
+     display: block;
+     justify-content:center;
+     align-items: center;
+    
+}
+.home{ margin:0; padding:0; width:100%
+     }
+
+.DIVbgphome{
+    width: 100%;
+    height: 200px;
+}
+.titlehome{
+    font-family: "OpenSans-Light", serif;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.bgphome{
+    height: 100%;
+    width: 100%;
+}
+#boxschedule{
+
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content:first baseline
+}
+.btnpagehome{
+    border-color:rgb(241, 225, 255);
+    background-color: rgb(255, 249, 232);
+   
+}
+.btnNewWindow{
+    border: none;
+    background-color: white;
+}
+.to-do{
+    color: rgb(131, 131, 131);
+}
+#topbtn{
+border: none;
+background-color: white;
+width: 5px;
+height: 5px;
+}
+#bottombtn{
+    border: none;
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
+}
+.h3flex{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.maison{
+    position: absolute;
+    top: 125px;
+    left: 10%;
+}
+.page2part2{
+    width:100%;
+    height:1000px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+   
+.part2{
+    
+    width: 350px;
+    margin: 30px;
+  
+}
+
+.imgtest{
+    width: 350px;
+    height: 250px;
+}
+.affirmations{
+    background-color:rgb(241, 225, 255);
+    width: 350px;
+    height:90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.opensans{
+    font-family:"OpenSans-Light", serif;
+}
+.rose{
+    background-color:rgb(241, 225, 255);
+}
+.jaune{
+    background-color: rgb(255, 249, 232);
+}
+.orange{
+    background-color: rgb(255, 241, 226);
+}
+.vert{
+    background-color: rgb(230, 255, 247);
+}
+.gray{
+    background-color: rgb(244, 244, 244);
+}
+
+/*----------------academia page---------------- */
+.academia{ margin:0; padding:0;
+    width:100%;font-family: "OpenSans-Light", serif; } 
+
+.mainp3{
+    display: flex;
+}
+.DIVbgACA{
+    width: 100%;
+    height: 200px;
+}
+.bgACA{
+    width: 100%;
+    height: 100%;
+}
+.cap{
+    position: absolute;
+    top: 125px;
+    left: 10%;
+}
+.imgaca{
+    width: 350px;
+    height: 400px;
+}
+.course{
+    width: 500px;
+    height: 250px;
+    background: rgb(243,147,255);
+    background: linear-gradient(62deg, rgba(243,147,255,1) 0%, rgba(45,253,201,1) 100%);
+}
+.coursedescription{
+    width: 350px;
+    height: 250px;
+    border-color: black;
+    border: 8px;
+}
+.titleACA{
+    font-family: "OpenSans-Light", serif;
+    font-weight: bolder;
+    margin-top: 80px;
+    margin-left: 10%;
+}
+.page3Leftpart{
+    margin-left:60px;
+    width:325px;
+    height:500px;
+  
+}
+.page3rightPart{
+    margin-left: 10px;
+    width:800px;
+    height:500px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+table{
+    width: 700px;
+    border-collapse: collapse;
+    border-color: rgb(154, 154, 154); 
+}
+
+.tabletitle{
+    color: rgb(154, 154, 154);
+}
+
+.inputTable{
+    width: 750px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titleinput{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}

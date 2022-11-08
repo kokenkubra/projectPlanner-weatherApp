@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="home">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f68183a2a8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body class="home">
+    <div class="page2">
+        <div class="DIVbgphome">
+            <img src="images/bgpage1.png" class="bgphome" alt="bgp">
+        </div>
+        <i class="fa-solid fa-house fa-7x maison"></i>
+        <div class="titlehome">
+            
+            <h2>home</h2>
+        </div>
+        <div class="page2part2">
+            <div class="affirmationOfTheDay part2">
+                <img src="images/boat.png" class="imgtest" alt="cool">
+              <div class="affirmations"><p class="affirmation">
+                <i class='fas fa-moon'></i>~~ Affirmation of the day: <br> <em>"I can finish the project"</em></p></div>
+            </div>
+            <div class="playlist part2 ">  
+                <h3 class="opensans jaune">- PLAYLIST </h3>
+                <iframe src="https://open.spotify.com/embed?uri=spotify:album:1DFixLWuPkv3KT3TnV35m3" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+             
+            </div>
+            <div class="todayschedule part2">
+                <h3 class="opensans orange h3flex">- TODAY'S SCHEDULE </h3>
+               
+                    <div id="boxschedule">
+                        <input type="text"  id="scheduleInput">
+                        <button class="btnpagehome" id="btnedit" onclick="editLI()"> Edit </button><button class="btnpagehome" id="btnschedule"> + </button><button class="btnpagehome" id="btnRemoveSchedule"> - </button>
+                        
+                    </div>
+               <ul id="ulschedule">     
+                    <li>morning routine</li>
+                    <li>go for a walk</li>
+                    <li>linguistics class</li>
+                    <li>lunch w/ Maya</li>
+                    <li>japanese class</li>
+                    <li>pizza for dinner</li>
+                    <li>night routine</li>
+                </ul>
+            </div>
+            <div class="todaystodos part2">
+                <h3 class="opensans vert">- TODAY'S TODO'S </h3>
+                <input type="checkbox" id="checkboxHome" name="scales" checked>
+                <label for="checklist">buy milk and luna's food</label><br>
+                <input type="checkbox" id="checkboxHome" name="scales" checked>
+                <label for="checklist">ask for last weeks japanese notes</label><br>
+                <input type="checkbox" id="checkboxHome" name="scales" checked>
+                <label for="checklist">borrow achille song at the libary</label>
+                <button class="btnNewWindow" onclick="addToDo()"><p class="to-do">+ Add a new to-do</p></button>
+                
+            </div>
+            <div class="daily part2">
+                <h3 class="opensans orange">- DAILY </h3>
+                <ul>
+                    <li><i class="fa-solid fa-medal"></i>habit tracker</li>
+                    <li><i class="fa-regular fa-sun"></i>morning routine</li>
+                    <li><i class="fa-regular fa-moon"></i>night routine</li>
+                    <li><i class="fa-solid fa-utensils"></i>meal planner</li>
+                    <li><i class="fa-solid fa-cloud"></i>dream log</li>
+                    <li><i class="fa-solid fa-book"></i>journal</li>
+                </ul>
+
+            </div>
+            <div class="trackers part2">
+                <h3 class="opensans rose">- TRACKERS </h3>
+                <ul>
+                <li><i class="fa-solid fa-tv"></i>tv series</li>
+                <li><i class="fa-solid fa-film"></i>movies</li>
+                <li><i class="fa-solid fa-book"></i>books</li>
+                <li><i class="fa-solid fa-plate-wheat"></i>recipes</li>
+                <li><i class="fa-solid fa-plane-departure"></i>travel log</li>
+                <li><i class="fa-regular fa-star"></i>wishlist</li>
+                <li><i class="fa-solid fa-dumbbell"></i>fitness</li>
+                <li><i class="fa-solid fa-pen"></i>quotes</li>
+                </ul>
+
+            </div>
+            <img src="images/SEA.png" class="imgtest" alt="home">
+            <div class="quichlinks part2">
+                <h3 class="opensans rose">- QUICK LINKS </h3>
+                <ul>
+                    <li><a href="file:///D:/BeCode/Projets/project-planner/academia.html"><i class="fa-solid fa-graduation-cap"></i>academia</a></li>
+                    <li><i class="fa-solid fa-heart"></i>self-growth</li>
+                    <li><i class="fa-regular fa-credit-card"></i>  finance</li>
+                    
+                </ul>
+            </div>
+        </div>
+            
+            <!-- <div class="dayoftheWeek">
+                <div class="monday">
+                    <button>monday</button>
+                    <p>To do...</p>
+                </div>
+                <div class="tuesday">
+                    <button>tuesday</button>
+                    <p>To do...</p>
+                </div>
+                <div class="wednesday">
+                    <button>wednesday</button>
+                    <p>To do...</p>
+                </div>
+                <div class="thursday">
+                    <button>thursday</button>
+                    <p>To do...</p>
+                </div>
+                
+                <div class="friday">
+                    <button>friday</button>
+                    <p>To do...</p>
+                </div>
+                <div class="saturday">
+                    <button>satuday</button>
+                    <p>To do...</p>
+                </div>
+                <div class="sunday">
+                    <button>sunday</button>
+                    <p>To do...</p>
+                </div>
+            </div> -->
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
