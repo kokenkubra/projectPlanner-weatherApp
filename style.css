@@ -291,3 +291,15 @@ table{
     display: flex;
     justify-content: space-between;
 }
+.dayoftheWeek{
+    margin-top: 30px;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+.dow{
+    width: 200px;
+    height: 100px;
+}

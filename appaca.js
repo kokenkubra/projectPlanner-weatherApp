@@ -7,12 +7,10 @@ const table = document.querySelector('.worktable');
 const tr = document.querySelectorAll('tr');
 const inWitchSelectShouldBe = document.querySelector(".newl");
 
-
  const array = ["To do","done"];
 
-
 btnAdd.addEventListener('click', () => {
- 
+
 //Create and append select list
 let selectList = document.createElement("select");
 
@@ -35,32 +33,33 @@ let selectList = document.createElement("select");
  // first date
   var today = new Date();
   var dd = String(today.getDate()).padStart(2, '0');
-  var mm = String(today.getMonth()).padStart(2, '0'); //January is 0!
+  // var mm = String(today.getMonth()).padStart(2, '0'); //January is 0!
+
+  const month = ["01","02","03","04","05","06","07","08","09","10","11","12"];
+
+  const d = new Date();
+  let mm = month[d.getMonth()];
   var yyyy = today.getFullYear();
-  
   today = mm + '/' + dd + '/' + yyyy;
-  
+  console.log(today);
+
   // second date
 
- 
   const oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
-  const firstDate = new Date( dd,mm,yyyy);
+  const firstDate = new Date(today);
   const secondDate = new Date(dueDate);
   
   const diffDays = Math.round(Math.abs((firstDate - secondDate) / oneDay));
   console.log(firstDate);
   console.log(secondDate);
-  console.log(diffDays);
-
-
+  
   let template = `
               <tr>
                   <td >${work}</td>
-                  <td>${des}</td>
+                  <td class="orange">${des}</td>
                   <td class="newl">${todo.outerHTML}</td>
                   <td>${dueDate}</td>
                   <td>${diffDays + " days"}</td>
-                  
               </tr>`;
   table.innerHTML += template;
 });
@@ -94,8 +93,6 @@ let selectList = document.createElement("select");
 //             tab.push(items[i].innerHTML)
 //       }
 //   }
-
-
 
 (function () {
   document.querySelector('#btnRemoveSchedule').addEventListener('click', function () {

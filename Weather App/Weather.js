@@ -10,7 +10,7 @@ const weatherForm = document.getElementById('cityName')
 const weatherByDay = [[], [], [], [], []]
 /*SUBSCRIBE HERE FOR API KEY: https://home.openweathermap.org/users/sign_up*/
 
-const apiKey = "bd88c87a2a76a7e03d2f6781859f5ee7";
+const apiKey = "cd";
 // const key = newDate(1662292800).toLocaleDateString();
 // console.log(key);
 form.addEventListener("submit", e => {
@@ -30,8 +30,6 @@ form.addEventListener("submit", e => {
      const li = document.createElement("li");
      li.classList.add("city");
      console.log(data);
-    
-     
 
     const weatherByDay = [[], [], [], [], []];
     const date = new Date();
